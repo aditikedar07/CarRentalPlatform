@@ -1,0 +1,28 @@
+
+
+# Ignore compiled Java files
+*.class
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+
+# Ignore configuration files with sensitive data
+config/database.properties
+
+# Ignore libraries and dependencies
+lib/mysql-connector-java.jar
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE-specific files
+/.idea/
+/.vscode/
+/.settings/
+/.classpath/
+/.project/
+/target/
+/bin/
+/out/
